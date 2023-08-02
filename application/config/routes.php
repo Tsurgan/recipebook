@@ -19,6 +19,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //$route['recipes/(:any)'] = 'recipes/view/';
+
+
+
+$route['all']='demo/get_all_recipes';
+
+
+
 $route['recipes/(:any)'] = 'demo/index/view';
 $route['recipes'] = 'recipes';
 $route['(:any)'] = 'demo/index/view';
